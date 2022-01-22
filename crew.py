@@ -17,7 +17,7 @@ st.markdown("# Crew Goal Picker")
 st.markdown("Pick settings to randomize goals")
 col1, col2, col3 = st.columns(3)
 with col1:
-    ngoals = st.selectbox(label="Goals", options=(1, 2, 3, 4, 5, 6, 7, 8, 9), index=3)
+    ngoals = st.selectbox(label="Goals", options=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), index=3)
 with col2:
     nplayers = st.selectbox(label="Players", options=(3, 4, 5), index=1)
 with col3:
